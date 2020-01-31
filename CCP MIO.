@@ -1,0 +1,30 @@
+#an easy code by caseofish
+import random
+import time
+import math
+import turtle
+#import 
+l=turtle.Turtle()
+#def l
+print('hello,World!')
+#Welcome
+ask=input('Do u wanna van 游戏？T OR F')
+c=input('painting times?')
+t=int(c)
+a=input('The max?')
+k=int(a)
+#ask for T/F
+if ask == 'T':
+	for i in range(1,t):
+	  l.hideturtle()
+	  l.delay(0)
+	  l.circle(i)
+	  m=random.randint(1,k)
+	  #def m
+	  l.circle(i)
+	  l.circle(-i)
+	  l.circle(m)
+	  l.circle(-m)
+else:
+	print('Fine')
+	print(ask,c,a)
